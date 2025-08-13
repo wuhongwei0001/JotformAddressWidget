@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- The original UI elements -->
     <div class="container">
         <label for="zipcode">郵便番号:</label>
         <input type="text" id="zipcode" placeholder="例: 1000001" maxlength="7">
@@ -15,6 +16,13 @@
             <p id="error"></p>
         </div>
     </div>
+
+    <!-- Step 1: Inline script to see if ANY script runs -->
+    <script>
+        alert('Step 1: Inline script executed!');
+    </script>
+
+    <!-- Step 2: Load external scripts -->
     <script src="https://js.jotform.com/JotFormCustomWidget.js"></script>
     <script src="script.js"></script>
 </body>
