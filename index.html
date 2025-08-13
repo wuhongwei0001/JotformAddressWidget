@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>郵便番号検索ウィジェット</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <label for="zipcode">郵便番号:</label>
+        <input type="text" id="zipcode" placeholder="例: 1000001" maxlength="7">
+        <button id="search-btn">住所検索</button>
+        <div id="result-area">
+            <p id="result"></p>
+            <p id="error"></p>
+        </div>
+    </div>
+    <script src="https://js.jotform.com/JotFormCustomWidget.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
